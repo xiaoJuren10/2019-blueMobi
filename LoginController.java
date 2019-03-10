@@ -21,6 +21,7 @@ public class LoginController extends AppController  {
 	 * @param cellphone
 	 */
 	 //哈哈，到此一游
+	//李四到此一游
 	@RequestMapping("/getSmsCode.htm")
 	public void getSmsCode(@RequestParam(value="cellphone",required=true) String cellphone) {
 		Map<String,Object>resultMap=new HashMap<String, Object>();
