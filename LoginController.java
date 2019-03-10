@@ -20,6 +20,7 @@ public class LoginController extends AppController  {
 	 * 发送短信验证码
 	 * @param cellphone
 	 */
+	 //哈哈，到此一游
 	@RequestMapping("/getSmsCode.htm")
 	public void getSmsCode(@RequestParam(value="cellphone",required=true) String cellphone) {
 		Map<String,Object>resultMap=new HashMap<String, Object>();
